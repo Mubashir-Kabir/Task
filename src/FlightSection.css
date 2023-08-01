@@ -1,0 +1,91 @@
+.flight-section {
+  margin: 20px;
+  background-color: bisque;
+}
+
+.category-toggle {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.category-toggle label {
+  margin: 0 10px;
+}
+
+.search-form {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.form-group input,
+.form-group select,
+.form-group button {
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  flex: 1;
+  
+}
+
+.form-group .toggle-button {
+  font-size: 20px;
+  padding: 7px 10px;
+  cursor: pointer;
+  background-color: white;
+  color: #050505;
+  border: none;
+  border-radius: 5px;
+}
+
+.form-group .toggle-button:hover {
+  background-color: #d7d8da;
+}
+
+.form-group .remove-flight-btn {
+  font-size: 20px;
+  padding: 7px 10px;
+  cursor: pointer;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.form-group .remove-flight-btn:hover {
+  background-color: #c82333;
+}
+
+.add-flight-btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-flight-btn:hover {
+  background-color: #218838;
+}
+.SubmitButton{
+      background-color: #0dd736;
+    background-image: none;
+    border-radius: inherit;
+    padding: 10px;
+}
